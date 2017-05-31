@@ -43,7 +43,7 @@ syn keyword gdscriptBuiltin     dectime randomize randi randf rand_range rand_se
 syn keyword gdscriptBuiltin     deg2rad rad2deg linear2db db2linear max min clamp
 syn keyword gdscriptBuiltin     nearest_po2 weakref funcref convert str print
 syn keyword gdscriptBuiltin     printt printerr printraw range load inst2dict
-syn keyword gdscriptBuiltin     dict2inst preload print_stack onready
+syn keyword gdscriptBuiltin     dict2inst preload print_stack onready signal
 
 syn match   gdscriptDecorator	"@" display nextgroup=gdscriptFunction skipwhite
 " The zero-length non-grouping match before the function name is
